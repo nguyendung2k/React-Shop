@@ -1,6 +1,6 @@
 const product_01_image_01 = require('../images/products/product-01 (1).jpg')
 const product_01_image_02 = require('../images/products/product-01 (2).jpg')
-const product_01_image_03 = require('../images/products/product-01 (3).jpg')
+// const product_01_image_03 = require('../images/products/product-01 (3).jpg')
 
 const product_02_image_01 = require('../images/products/product-02 (1).jpg')
 const product_02_image_02 = require('../images/products/product-02 (2).jpg')
