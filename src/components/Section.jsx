@@ -1,9 +1,25 @@
 import React from 'react'
 
-const Section = () => {
+const Section = props => {
   return (
     <div className = "section">
-        {PaymentResponse.children}
+        {props.children}
+    </div>
+  )
+}
+
+export const SectionTitle = props => {
+  return (
+    <div className = "section__title">
+        {props.children}
+    </div>
+  )
+}
+
+export const SectionBody = props => {
+  return (
+    <div className = "section__body">
+        {props.children}
     </div>
   )
 }
